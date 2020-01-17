@@ -35,6 +35,17 @@ namespace cw
             Printer p1 = new Printer("Canon Printer", "Japan", 120.3584, 27);
             p1.Display();
             #endregion
+
+            #region Task 4
+            Console.WriteLine("#Person - Task 4");
+            Person pr1 = new Person(273217004,"Sevdzhan Alkan", "Studenski grad, Sofia/Bulgaria");
+            pr1.Show();
+
+            Console.WriteLine("#Student - Task 4");
+            StudentT4 st1 = new StudentT4(273217004,"Alan Gates", "NY/USA", 
+                "New York University", "Computer Science");
+            st1.Show();
+            #endregion
         }
     }
 }

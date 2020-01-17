@@ -28,9 +28,9 @@ namespace cw
         public override string ToString()
         {
             return $@"
-			ID: {this.ID} \n
-			Name: {this.Name} \n
-			Address: {this.Address} \n
+			ID: {this.ID}
+			Name: {this.Name} 
+			Address: {this.Address}
 		    ";
         }
     }
